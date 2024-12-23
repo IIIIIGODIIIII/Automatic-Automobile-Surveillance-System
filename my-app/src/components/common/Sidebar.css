@@ -1,0 +1,16 @@
+/* Sidebar.css */
+.sidebar {
+  width: 240px;
+}
+
+.menuButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 240px;
+  }
+}

@@ -1,0 +1,26 @@
+.traffic-stats-graph-container {
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.line-chart-container {
+  height: 350px; /* Adjust the height to make the line chart smaller */
+  width: 100%; /* Adjust the width to make the line chart larger */
+}
+
+.pie-chart-container {
+  margin-top: 20px; /* Add some space between the charts */
+  width: 50%; /* Adjust the width to make the pie chart larger */
+  /* margin: 0 ; Center the pie chart */
+}
+
+.traffic-stats-graph {
+  margin-top: 20px;
+}
+
+.traffic-stats-graph h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}

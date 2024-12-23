@@ -1,0 +1,7 @@
+path:  C:\Users\samar\Desktop\capstone\anprtest4\datasets # prefer abs path
+train: train/images # train images (relative to 'path')
+# val: train/images  # val images (relative to 'path')
+val: test/images
+# Classes
+names:
+  0: license_plate

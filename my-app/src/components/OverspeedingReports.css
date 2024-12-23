@@ -1,0 +1,88 @@
+/* src/components/OverspeedingReports.css */
+.overspeeding-reports-container {
+  flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 520px; /* Adjust height as needed */
+    overflow: hidden; /* Hide any overflow */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto; /* Center align the map container */
+    box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  }
+  
+  .map {
+    position: absolute; /* Absolute position within the container */
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0; /* Simulate a basic map background */
+    overflow: hidden; /* Ensure no scrollbars */
+  }
+  
+  .marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    animation: pulse 1.5s infinite;
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .marker:hover .tooltip {
+    display: block;
+    opacity: 1;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+  
