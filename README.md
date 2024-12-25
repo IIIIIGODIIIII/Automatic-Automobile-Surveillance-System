@@ -4,7 +4,7 @@ This project implements a robust vehicle speed detection system using a combinat
 
 ---
 
-## ### Key Features
+## Key Features
 - **Real-Time Speed Detection:** Tracks vehicles and estimates their speeds dynamically from video streams.
 - **Advanced Object Detection:** Utilizes YOLO (You Only Look Once) for accurate vehicle detection.
 - **Polygon Zone Transformation:** Improves tracking accuracy using perspective transformation.
@@ -62,7 +62,7 @@ This project implements a robust vehicle speed detection system using a combinat
 #### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/IIIIIGODIIIII/Automatic-Automobile-Surveillance-System.git
 2. Install the required libraries:
    ```bash
    pip install -r requirements.txt requirement.txt
